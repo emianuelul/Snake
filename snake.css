@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #252525;
+}
+
+hr{
+    width: 500px;
+}
+
+#title{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #9aa57c;
+}
+
+#score{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #9aa57c;
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 3px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 50px;
+    height: 50px;
+}
+
+.empty{
+    background-color: #4c554d;
+}
+
+.snake{
+    background-color: #9aa57c;
+}
+
+.food{
+    background-color: #e0e9c4;
+}
